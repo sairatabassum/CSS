@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+section {
+  background: #ff1b68;
+}
+
+/* Element */
+h1 {
+  color: white;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ID */
+#product-1 {
+  background: red;
+}
+
+/* Class */
+.class-h1 {
+  color: yellow;
+  font-family: "Courier New", Courier, monospace;
+}
