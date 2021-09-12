@@ -18,7 +18,8 @@ p {
 }
 
 /* //////////////////////////////////////////////////////////////////////////// */
-/* SELECTORS 3 : ID,CLASS,ELEMENT */
+/* SELECTORS: ID,CLASS,ELEMENT */
+
 /* Element */
 h1 {
   color: white;
@@ -39,6 +40,7 @@ h1 {
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* COMBINATORS */
+
 /* Descendant */
 #product-1 h1 {
   background: wheat;
@@ -51,7 +53,6 @@ h2 ~ p {
 }
 
 /* Adjacent Sibling */
-
 h2 + p {
   color: blue;
 }
