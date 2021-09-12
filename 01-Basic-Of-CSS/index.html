@@ -12,7 +12,6 @@
     />
 
     <!-- 3 different ways of adding CSS : Inline CSS, Internal CSS, External CSS -->
-
     <!-- Internal CSS -->
     <style>
       section {
@@ -30,6 +29,8 @@
       <!-- Inline CSS -->
       <section style="background: #ff1b68" id="product-1">
         <h1>Get freedom</h1>
+        <p>paragraph1</p>
+        <h1>Ipsum</h1>
       </section>
 
       <!-- We can add multiple time CLASS but not ID -->
@@ -39,9 +40,43 @@
         <p>This is paragraph</p>
       </section>
 
-      <!-- ///////////////////////////////////////////////////////// -->
+      <!-- /////////////////////////////////////////////////////////////////////////// -->
       <!-- Understanding Inheritance -->
       <!-- Inheritance means that an element also inherits some styles of the parent element. -->
+      <div>
+        <div>
+          <h2>Inherited!</h2>
+        </div>
+        <p>Overwritten</p>
+        <div>Inherited!</div>
+        <article>
+          <p>Overwritten</p>
+        </article>
+        <p>Overwritten</p>
+      </div>
+
+      <!-- /////////////////////////////////////////////////////////////////////////// -->
+      <!-- Adding Combinators -->
+      <!-- Adjacent Sibling -->
+      <!-- General Sibling -->
+      <!-- Child -->
+      <!-- Descendant -->
+
+      <div>
+        <h2>Not applied</h2>
+        <h4>applied</h4>
+
+        <article>
+          <h4>Not applied</h4>
+        </article>
+
+        <p>CSS applied blue</p>
+        <h2>Not applied</h2>
+        <h3>Not applied</h3>
+        <p>Not applied violet</p>
+        <h2>Not applied</h2>
+        <p>CSS applied blue</p>
+      </div>
     </main>
   </body>
 </html>

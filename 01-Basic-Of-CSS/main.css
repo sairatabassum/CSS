@@ -1,11 +1,24 @@
 body {
   font-family: sans-serif;
+  background: aqua;
 }
 
 section {
   background: #ff1b68;
 }
 
+/* //////////////////////////////////////////////////////////////////////////// */
+/* INHERITANCE */
+div {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* SELECTORS 3 : ID,CLASS,ELEMENT */
 /* Element */
 h1 {
   color: white;
@@ -22,4 +35,28 @@ h1 {
 .class-h1 {
   color: yellow;
   font-family: "Courier New", Courier, monospace;
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* COMBINATORS */
+/* Descendant */
+#product-1 h1 {
+  background: wheat;
+  color: blue;
+}
+
+/* General Sibling */
+h2 ~ p {
+  color: violet;
+}
+
+/* Adjacent Sibling */
+
+h2 + p {
+  color: blue;
+}
+
+/* Child */
+div > h4 {
+  color: teal;
 }
