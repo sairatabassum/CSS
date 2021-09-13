@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+#product-1 h1 {
+  background: red;
+  padding: 20px;
+
+  /* border-style: solid;
+  border-color: black;
+  border-width: 5px; */
+
+  /* Short Border */
+  border: 5px black solid;
+
+  margin: 20px;
+}
