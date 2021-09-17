@@ -1,8 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
 }
 
-#product-1 h1 {
+#product-1 {
   background: red;
   padding: 20px;
 
@@ -10,8 +13,45 @@ body {
   border-color: black;
   border-width: 5px; */
 
-  /* Short Border */
+  /* Shorthand property Border */
   border: 5px black solid;
 
+  /* Top Right Bottom Left */
+  margin: 20px 20px 20px 20px;
+
+  /* Shorthand property margin */
+  /* All side */
   margin: 20px;
+  /* Top Bottom + Left right */
+  margin: 20px 20px;
+
+  /* width height */
+  width: 451px;
+  height: 333px;
+
+  /* Box sizing */
+  /* The box-sizing property allows us to include the padding and border in an element's total width and height. */
+
+  /* width + padding + border = actual width of an element
+     height + padding + border = actual height of an element */
+  box-sizing: border-box;
+
+  /* width = actual width of an element
+     height = actual height of an element */
+  /* box-sizing: content-box; */
+}
+.main-header {
+  width: 100%;
+  background: #2ddf5c;
+  padding: 8px 16px;
+
+  /* Display- The display property allows us to change the behavior of an element from block to inline or even to
+    inline block which is a mixture or to none to remove it from the DOM even. */
+}
+
+.main-nav_list {
+  /* This mixes the behavior of both inline and block level elements. Like inline elements,
+    these elements can go next to each other now but they still behave like block level elements when it
+    comes to setting top and bottom margins, setting paddings, things that are not possible on inline elements. */
+  display: inline-block;
 }
