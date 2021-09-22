@@ -48,10 +48,69 @@ body {
   /* Display- The display property allows us to change the behavior of an element from block to inline or even to
     inline block which is a mixture or to none to remove it from the DOM even. */
 }
-
+.main_header_brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 74px);
+  vertical-align: middle;
+}
+.main-nav_lists {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 .main-nav_list {
   /* This mixes the behavior of both inline and block level elements. Like inline elements,
     these elements can go next to each other now but they still behave like block level elements when it
     comes to setting top and bottom margins, setting paddings, things that are not possible on inline elements. */
   display: inline-block;
+  margin: 0 10px;
+}
+.main-nav_list a {
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.main-nav_list a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+.main-nav_list a:hover,
+.main-nav_list a::after {
+  color: white;
+}
+/* 
+.main-nav_list a::after {
+  content: "(Link)";
+  color: red;
+} */
+p::first-letter {
+  color: red;
+  font-size: 60px;
+}
+
+.main-nav_list_cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.main-nav_list_cta a:hover,
+.main-nav_list_cta a:active {
+  color: #ff1b68;
+  background: white;
+  border: none;
 }
