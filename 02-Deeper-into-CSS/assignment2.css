@@ -1,0 +1,22 @@
+div {
+  padding: 10px 5px 2px 8px;
+  border: black solid 10px;
+  margin: 10px 5px 8px 4px;
+  display: inline-block;
+}
+.first-box {
+  height: 100%;
+}
+.first-box {
+  height: 300px;
+  width: 50%;
+  display: none;
+  margin: 0;
+}
+.last-box:hover {
+  background-color: aqua;
+}
+html,
+body {
+  height: 100%;
+}
