@@ -16,23 +16,23 @@ body {
   border-color: black;
   border-width: 5px; */
 
-  /* Shorthand property Border */
+  /* Shorthand property Border -------*/
   /* border: 5px black solid; */
 
-  /* Top Right Bottom Left */
+  /* Top Right Bottom Left ---------*/
   /* margin: 20px 20px 20px 20px; */
 
-  /* Shorthand property margin */
-  /* All side */
+  /* Shorthand property margin -------*/
+  /* All side ------------------------*/
   /* margin: 20px; */
-  /* Top Bottom + Left right */
+  /* Top Bottom + Left right --------*/
   /* margin: 20px 20px; */
 
-  /* width height */
+  /* width height -------*/
   width: 100%;
   height: 333px;
 
-  /* Box sizing */
+  /* Box sizing ------*/
   /* The box-sizing property allows us to include the padding and border in an element's total width and height. */
 
   /* width + padding + border = actual width of an element
@@ -99,6 +99,7 @@ body {
   content: "(Link)";
   color: red;
 } */
+
 p::first-letter {
   color: red;
   font-size: 60px;
