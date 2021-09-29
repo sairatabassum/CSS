@@ -6,7 +6,9 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
-
+header {
+  position: fixed;
+}
 #product-overview {
   background: url("freedom.jpg");
   background-repeat: no-repeat;
@@ -68,6 +70,11 @@ body {
 }
 .plan__list li {
   padding: 8px 0;
+}
+.plan_list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 /* h1 {
