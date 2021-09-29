@@ -1,0 +1,34 @@
+main {
+  margin-top: 32px;
+}
+
+.plans a {
+  text-decoration: none;
+  display: block;
+}
+.plans__title {
+  color: black;
+}
+.plans__sub-title {
+  color: #807e7e;
+}
+.plans a p {
+  color: #14a045;
+  background: white;
+  border: 2px solid #14972a;
+  padding: 15px;
+}
+.plans {
+  background: #d5ffdc;
+  border: 2px solid #0e4f1f;
+  border-left: none;
+  margin: 32px 0;
+  padding: 20px;
+  width: 75%;
+}
+.plans__diff {
+  background: #0e4f1f;
+}
+.plans__diff a h1 {
+  color: white;
+}
