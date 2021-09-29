@@ -26,9 +26,38 @@ main {
   padding: 20px;
   width: 75%;
 }
-.plans__diff {
-  background: #0e4f1f;
+.plans:hover,
+.plans:active {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-color: #3a3636;
 }
 .plans__diff a h1 {
   color: white;
+}
+.clearfix {
+  clear: both;
+}
+#plus {
+  background: rgba(213, 255, 220, 0.94);
+}
+#free {
+  background: rgba(234, 252, 237, 0.4);
+  float: right;
+  border-right: none;
+  border-left: 2px solid #0e4f1f;
+  text-align: right;
+}
+#free:hover,
+#free:active {
+  border-left-color: #3a3636;
+}
+
+#premium {
+  background: rgba(14, 79, 31, 0.94);
+}
+#premium .plans__title {
+  color: white;
+}
+#premium .plans__sub-title {
+  color: #bbb;
 }
