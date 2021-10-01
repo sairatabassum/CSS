@@ -1,7 +1,13 @@
 main {
   margin-top: 32px;
 }
-
+.background {
+  background: url("plans-background.jpg");
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
 .plans a {
   text-decoration: none;
   display: block;
