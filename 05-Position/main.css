@@ -28,10 +28,9 @@ body {
   margin: 10px;
 }
 .parent .child-1 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0;
-  width: 100%;
-  box-sizing: border-box;
+  /* for the fixed and absolute values, the top, left, bottom and right properties specify a distance to the parent element*/
+  /* for the relative positioning, this simply defines how this element should move from the current position. */
+  position: relative;
+  top: 20px;
+  left: 60px;
 }
