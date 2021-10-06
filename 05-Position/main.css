@@ -18,6 +18,7 @@ body {
   padding: 20px;
   border: 5px solid black;
   margin: 0;
+  overflow: hidden;
 }
 
 .parent div {
@@ -29,8 +30,11 @@ body {
 }
 .parent .child-1 {
   /* for the fixed and absolute values, the top, left, bottom and right properties specify a distance to the parent element*/
+  /* Both the "absolute" and "fixed" value take the element the value is applied to out of the document flow. */
   /* for the relative positioning, this simply defines how this element should move from the current position. */
+  /* Applying the "fixed" value to an element will change the positioning context to the viewport. */
+  /* The positioning context of an element with the "absolute" value applied, is the closest ancestor with a "position" value different from "static". */
   position: relative;
-  top: 20px;
+  top: 180px;
   left: 60px;
 }
