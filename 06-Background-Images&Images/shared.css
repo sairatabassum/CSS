@@ -29,11 +29,11 @@ body {
   font-size: 22px;
   display: inline-block;
   width: 22px;
-  height: 80px;
+  height: 50px;
 }
 .main-header__brand img {
-  /* percentage values on the image don't help us here because they don't respect the surrounding container. */
-  height: 100%;
+  /* percentage values on the image don't help us here because they don't respect the surrounding container. *inline-element* */
+  height: 50%;
   width: 100%;
 }
 
