@@ -100,6 +100,7 @@ body {
 .btn {
   background: #0e4f1f;
   color: white;
+  /* Inherit was a keyword, a value which forces the inherited styles to be applied. */
   font: inherit;
   border: 2px solid #0e4f1f;
   border-radius: 8px;
