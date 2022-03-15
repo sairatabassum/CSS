@@ -29,11 +29,15 @@ body {
   margin: 10px;
 }
 .parent .child-1 {
-  /* for the fixed and absolute values, the top, left, bottom and right properties specify a distance to the parent element*/
-  /* Both the "absolute" and "fixed" value take the element the value is applied to out of the document flow. */
-  /* for the relative positioning, this simply defines how this element should move from the current position. */
+  /* fixed and absolute values, the top, left, bottom and right properties specify a distance to the parent element*/
+  /* "absolute" and "fixed" value take the element the value is applied to out of the document flow. */
+  /* relative positioning, this simply defines how this element should move from the current position. */
   /* Applying the "fixed" value to an element will change the positioning context to the viewport. */
   /* The positioning context of an element with the "absolute" value applied, is the closest ancestor with a "position" value different from "static". */
+  /* relative value doesn't take our elements out of the document flow */
+  /* but for the fixed value, the positioning context always is the viewport, 
+  for the absolute value, the positioning context depends- If you don't have any ancestors with a positioning property applied, 
+  then the positioning context */
   position: relative;
   top: 180px;
   left: 60px;
@@ -41,3 +45,9 @@ body {
 /* fixed - viewport */
 /* fixed always refers or relates to the viewport */
 /* Apply to block level element & Inline element */
+
+/* absolute - two cases */
+/* i) If none of the ancestors, so of the parent elements,
+ has a position property applied, well then the positioning context of the element is simply the HTML element.*/
+/* ii) we have any position ancestors, then the closest ancestor which has the
+ position property applied is the positioning context for this element.*/
