@@ -27,6 +27,7 @@ body {
   border: 5px solid black;
   margin: 10px;
   position: sticky;
+  /* sticky is basically a hybrid or a combination of relative and fixed */
   top: 20px;
 }
 
