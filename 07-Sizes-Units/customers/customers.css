@@ -1,5 +1,5 @@
 .testimonial {
-  font-size: 20px;
+  font-size: 1.2em;
   margin: 48px 0;
 }
 
@@ -45,6 +45,7 @@
 .testimonial__name {
   margin: 3px;
   color: #ff5454;
+  font-size: 2rem;
 }
 
 .testimonial__subtitle {
