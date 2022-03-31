@@ -6,7 +6,9 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
-
+html {
+  overflow-x: hidden;
+}
 .backdrop {
   position: fixed;
   display: none;
@@ -198,5 +200,5 @@ body {
 }
 
 .open {
-    display: block !important;
+  display: block !important;
 }
