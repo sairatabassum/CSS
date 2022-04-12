@@ -2,6 +2,7 @@
   font-family: "AnonymousPro";
   src: url("AnonymousPro-Bold.ttf") format("truetype");
   font-weight: 700;
+  font-display: block;
 }
 @font-face {
   font-family: "AnonymousPro";
@@ -69,18 +70,18 @@ main {
 }
 
 .package__info {
-  font: italic small-caps 700 1.2rem "AnonymousPro", sans-serif;
-  /* font: font-style font-variant font-weight font-size font-family  */
+  font: italic small-caps 700 1.2rem/1.5 "AnonymousPro", sans-serif;
+  /* font: font-style font-variant font-weight font-size/line-height font-family  */
   /* font-size: 1.2rem; */
   /* font-family: "AnonymousPro", sans-serif; */
   /* font-weight: 700; */
   /* font-variant: small-caps; */
+  /* line-height: 1.5; */
 
   padding: 1rem;
   border: 1px solid #0e4f1f;
   color: #0e4f1f;
   background: white;
-  line-height: 1.5;
   text-decoration: underline dotted blue;
   text-shadow: 2px 2px 7px #ccc;
 }
