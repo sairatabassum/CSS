@@ -17,12 +17,16 @@ body {
 .flex-container {
   background: white;
   padding: 10px;
+  height: 500px;
   border: 5px solid black;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   /* row -> inline-block
   column -> block */
   flex-wrap: wrap;
+  /* flex-flow: row wrap */
+  align-items: center;
+  justify-content: center; /* along the cross-axis & main-axis */
 }
 
 .item-1 {
@@ -39,7 +43,7 @@ body {
   padding: 10px;
   border: 5px solid black;
   margin: 10px;
-  width: 250px;
+  width: 200px;
   font-size: 1.8rem;
 }
 
@@ -49,7 +53,7 @@ body {
   padding: 10px;
   border: 5px solid black;
   margin: 10px;
-  height: 250px;
+  height: 200px;
 }
 
 .item-4 {
@@ -58,7 +62,7 @@ body {
   padding: 10px;
   border: 5px solid black;
   margin: 10px;
-  width: 300px;
+  width: 200px;
   height: 300px;
 }
 
@@ -68,7 +72,7 @@ body {
   padding: 10px;
   border: 5px solid black;
   margin: 10px;
-  width: 350px;
+  width: 200px;
 }
 
 .item-6 {
@@ -77,5 +81,5 @@ body {
   padding: 10px;
   border: 5px solid black;
   margin: 10px;
-  width: 350px;
+  width: 200px;
 }
