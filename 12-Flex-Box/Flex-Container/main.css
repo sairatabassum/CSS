@@ -25,8 +25,9 @@ body {
   column -> block */
   flex-wrap: wrap;
   /* flex-flow: row wrap */
-  align-items: center;
-  justify-content: center; /* along the cross-axis & main-axis */
+  align-items: center; /* along the cross-axis */
+  justify-content: center; /* along the main-axis */
+  align-content: center;
 }
 
 .item-1 {
