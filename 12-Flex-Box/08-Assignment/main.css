@@ -66,7 +66,7 @@
 }
 .plan__title {
   color: #0e4f1f;
-  margin: 0;
+  margin: 10px;
 }
 
 .plan__price {
@@ -96,6 +96,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
   }
 
   /*assignment => flex container*/
@@ -103,15 +104,18 @@
     display: flex;
     width: 30%;
     flex-direction: column;
-    margin: 0.3rem;
     justify-content: center;
     align-items: center;
+    min-width: 13rem;
+    max-width: 25rem;
+    height: 25rem;
   }
 
   /*assignment => z-index & height*/
   .plan--highlighted {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-    z-index: 100;
+    z-index: 50;
+    height: 27rem;
   }
 }
 
@@ -152,11 +156,13 @@
 
 @media (min-width: 40rem) {
   /*assignment*/
+  .key-feature__list {
+    display: flex;
+    justify-content: center;
+  }
   .key-feature {
-    display: inline-block;
     width: 30%;
     max-width: 25rem;
-    vertical-align: top;
   }
 
   /*assignment => add .key-feature_list => flex container*/
