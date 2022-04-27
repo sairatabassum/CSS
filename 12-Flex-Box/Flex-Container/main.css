@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 html {
@@ -25,9 +25,8 @@ body {
   column -> block */
   flex-wrap: wrap;
   /* flex-flow: row wrap */
-  align-items: center; /* along the cross-axis */
-  justify-content: center; /* along the main-axis */
-  align-content: center;
+  align-items: center; /* along the cross-axis , referred to all elements,*/
+  justify-content: flex-start; /* along the main-axis */
 }
 
 .item-1 {
@@ -44,8 +43,8 @@ body {
   padding: 10px;
   border: 5px solid black;
   margin: 10px;
-  width: 200px;
-  font-size: 1.8rem;
+  width: 180px;
+  font-size: 1rem;
 }
 
 .item-3 {
@@ -55,6 +54,8 @@ body {
   border: 5px solid black;
   margin: 10px;
   height: 200px;
+  align-self: flex-start;
+  /* referred to one element, positioned in relation to the cross axis */
 }
 
 .item-4 {
@@ -64,7 +65,8 @@ body {
   border: 5px solid black;
   margin: 10px;
   width: 200px;
-  height: 300px;
+  height: 200px;
+  order: 1; /* smallest to larger. default value 0 */
 }
 
 .item-5 {
@@ -83,4 +85,13 @@ body {
   border: 5px solid black;
   margin: 10px;
   width: 200px;
+  order: 0;
 }
+
+/* The important thing though and the difference in contrast to align items is that align items of course
+
+referred to all elements,
+
+that's the difference but align self allows us to define the position of a single element which is part
+
+of a flex container */
