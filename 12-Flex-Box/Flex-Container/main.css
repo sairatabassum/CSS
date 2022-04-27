@@ -23,7 +23,7 @@ body {
   flex-direction: row;
   /* row -> inline-block
   column -> block */
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   /* flex-flow: row wrap */
   align-items: center; /* along the cross-axis , referred to all elements,*/
   justify-content: flex-start; /* along the main-axis */
@@ -76,6 +76,7 @@ body {
   border: 5px solid black;
   margin: 10px;
   width: 200px;
+  flex-grow: 1;
 }
 
 .item-6 {
@@ -85,7 +86,7 @@ body {
   border: 5px solid black;
   margin: 10px;
   width: 200px;
-  order: 0;
+  flex-grow: 2; /* The space distributed by element, */
 }
 
 /* The important thing though and the difference in contrast to align items is that align items of course
