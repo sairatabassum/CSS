@@ -80,6 +80,7 @@ body {
   /* flex-shrink: 5; */
   flex-basis: 300px;
   /* The flex basis simply defines the size of an element,depending on the main axis. */
+  /* flex: flex-grow flex-shrink flex-basis */
 }
 
 .item-6 {
@@ -100,3 +101,11 @@ referred to all elements,
 that's the difference but align self allows us to define the position of a single element which is part
 
 of a flex container */
+
+/* The flex basis always refers to the main axis. If flex basis is set
+
+to auto, the fallback will either be the width if the main axis goes from left to right or right to left
+
+or the fallback will be the height in case the main axis goes from top to bottom or bottom to top. */
+
+/*  */
