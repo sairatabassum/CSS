@@ -10,6 +10,10 @@
     [row-1-start] 5rem [row-1-end row-2-start] minmax(10px, 200px)
     [row-2-end row-3-start] 100px [row-3-end];
   /* minmax() the minimum height an element and the second argument is the maximum height */
+  grid-column-gap: 3rem;
+  grid-row-gap: 2rem;
+  grid-gap: 2rem 3rem;
+  /* grid gap define the gaps between the rows & columns */
 }
 
 .el1 {
@@ -35,6 +39,7 @@
   grid-row-start: row-1-start;
   /* grid-row-end: 3; */
   grid-row-end: row-2-end;
+  /* grid-area: row-1-start / 2 / row-2-end / span 3; */
 }
 
 .el4 {
