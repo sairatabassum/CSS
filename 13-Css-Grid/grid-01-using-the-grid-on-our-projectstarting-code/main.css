@@ -3,7 +3,7 @@
   display: grid;
   /* grid-template-columns: 200px 2fr 20% 1fr; */ /* width */
   /* grid-template-columns: 25% 25% 25% 25%; */
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(4, [col-start] 25% [col-end]);
 
   /* grid-template-rows: 5rem 2rem; */ /* height */
   grid-template-rows:
