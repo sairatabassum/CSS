@@ -1,0 +1,59 @@
+/* Method-1 */
+
+/* .container {
+  display: grid;
+  grid-template-rows: 90px 250px 300px 90px;
+  grid-template-columns: repeat(3, 1fr) 130px;
+  grid-gap: 20px;
+  width: 1000px;
+  margin: 40px auto;
+  color: #fff;
+  font-weight: 900;
+}
+
+.item {
+  background-color: orangered;
+}
+.item--1 {
+  grid-column: 1/-1;
+}
+
+.item--5 {
+  grid-column: 4/5;
+  grid-row: 2/4;
+}
+.item--6 {
+  grid-column: 1/4;
+}
+.item--7 {
+  grid-column: 1/-1;
+} */
+
+.container {
+  display: grid;
+  grid-template-rows: 90px 250px 300px 90px;
+  grid-template-columns: repeat(3, 1fr) 130px;
+  grid-gap: 20px;
+  width: 1000px;
+  margin: 40px auto;
+  color: #fff;
+  font-weight: 900;
+}
+
+.item {
+  background-color: orangered;
+}
+.item--1 {
+  grid-column: 1/-1;
+}
+
+.item--5 {
+  grid-column: 4/5;
+  grid-row: 2/4;
+}
+.item--6 {
+  grid-column: 1/4;
+}
+.item--7 {
+  grid-column: 1/-1;
+}
